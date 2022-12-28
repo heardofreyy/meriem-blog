@@ -59,7 +59,7 @@ header img {
 }
 
 .name-title {
-    font-family: "Gabriola";
+    font-family: "Gabriola", Times, serif;
     font-size: 40px;
     color: #c22c4f;
     height: 200px;
@@ -131,7 +131,7 @@ header img {
 
 .bio .bio-body {
     min-height: 200px;
-    font-family: cursive;
+    font-family: "Ebrima", Times, serif;
 }
 
 /* ---------------- personality ---------------  */
@@ -147,7 +147,7 @@ header img {
 .personality-body {
     min-height: 300px;
     padding: 10px;
-    font-family: cursive;
+    font-family: "Ebrima", Times, serif;
     padding-top: 20px;
 }
 
@@ -163,7 +163,7 @@ header img {
 
 .i-love-body {
     height: 200px;
-    font-family: cursive;
+    font-family: "Ebrima", Times, serif;
 }
 
 /* ---------------- insta ---------------  */
@@ -190,7 +190,7 @@ header img {
 
 .insta-button a {
     text-decoration: none;
-    font-family: cursive;
+    font-family: "Ebrima", Times, serif;
     width: auto;
     height: auto;
     padding: 10px 20px;
