@@ -1,8 +1,8 @@
-body{
+html, body{
     min-height: 100%; 
     max-height: 100%;
     max-width: 100%;
-    min-width: 100%;
+    min-width: 380px;
     background: linear-gradient(90deg, #ffb7c8, #ff9ab1, #f87392);
     background-size: 100%;
     padding: 0;
@@ -16,7 +16,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     height: 500px;
-    min-width: 500px;
+    min-width: 380px;
     border-radius: 50%;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -29,12 +29,12 @@ body{
 }
 
 header img {
-    width: 400px;
+    width: 300px;
     margin-top: -50px;
 }
 
 #profile-pic {
-    width: 170px;
+    width: 120px;
     margin-top: -50px;
     margin-bottom: 20px;
     border-radius: 50%;
@@ -49,7 +49,7 @@ header img {
     align-items: center;
     flex-wrap: wrap;
     height: auto;
-    width: 400px;
+    width: 300px;
     
 }
 
@@ -59,8 +59,8 @@ header img {
 }
 
 .name-title {
-    font-family: "Gabriola";
-    font-size: 50px;
+    font-family: "Gabriola", Times, serif;
+    font-size: 40px;
     color: #c22c4f;
     height: 200px;
     width: 300px;
@@ -131,7 +131,7 @@ header img {
 
 .bio .bio-body {
     min-height: 200px;
-    font-family: cursive;
+    font-family: "Ebrima", Times, serif;
 }
 
 /* ---------------- personality ---------------  */
@@ -147,7 +147,7 @@ header img {
 .personality-body {
     min-height: 300px;
     padding: 10px;
-    font-family: cursive;
+    font-family: "Ebrima", Times, serif;
     padding-top: 20px;
 }
 
@@ -163,7 +163,7 @@ header img {
 
 .i-love-body {
     height: 200px;
-    font-family: cursive;
+    font-family: "Ebrima", Times, serif;
 }
 
 /* ---------------- insta ---------------  */
@@ -190,7 +190,7 @@ header img {
 
 .insta-button a {
     text-decoration: none;
-    font-family: cursive;
+    font-family: "Ebrima", Times, serif;
     width: auto;
     height: auto;
     padding: 10px 20px;
